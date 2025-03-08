@@ -6,18 +6,18 @@ using namespace std;
 int main()
 {
 
-    float p, c, m, per;
+    float p,c,m,per;
 
-    cout <<"Physics score"<<"\n";
-    cin>>a;
-    cout<<"Chemistry score"<<"\n";
-    cin>>b;
-    cout<<"Math score"<<"\n";
+    cout <<"Physics score = ";
+    cin>>p;
+    cout<<"Chemistry score = ";
     cin>>c;
+    cout<<"Math score = ";
+    cin>>m;
     
     
-     per=(a+b+c)/3;  
-     cout<<d<<"\n"; 
+     per=(p+c+m)/3;  
+     cout<<"Total precentage = "<<per<<"%\n"; 
 
      if (p<35 && c>=35 && m>=35)
      {
@@ -33,23 +33,23 @@ int main()
      }
       else if ((p<35 && c<35) || (c<35 && m<35) || (m<35 && p<35))
      {
-        cout<<"Fail "<<"/n";
+        cout<<"Fail"<<"\n";
      }
-     else if (per>=60);
+      else if (per>=60)
      {
-        cout<<"1st Divison"<<"\n";
+        cout<<"Pass\n1st Divison"<<"\n";
      }
-     else if (per<=60 && per>=4-);
+      else if (per<60 && per>=40)
      {
-        cout<<"1st Divison"<<"\n";
+        cout<<"Pass\n2nd Divison"<<"\n";
      }
-     else if (per>=60);
+      else 
      {
-        cout<<"1st Divison"<<"\n";
+        cout<<"3rd Divison"<<"\n";
      }
-
+   
    
 }
-/* 1,1,2 ;;; */
+/* 1,1,2 ;;; ..*/
 
 
