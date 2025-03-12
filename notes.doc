@@ -1,0 +1,33 @@
+Transfer Statement
+use on menu / MCQ based problems and programming
+
+program
+{
+    syntax(condition/expression) //it does not support float datatype
+    {
+        case value1:   // case does not support operators exept arithmetic operator
+        {
+            Statement/code;
+            break;
+
+        }
+        case value2
+        {
+            Statement/code;
+            break;
+        }
+
+
+        default:
+        {
+            Statement/code;
+            break;
+        }
+    }
+
+}
+
+
+"break" can be used with - case
+       - cant be used with single if
+       - can be used with if onl 
