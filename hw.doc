@@ -16,3 +16,11 @@ case1 even odd
 case2 leap year
 case3 generate square
 case4 gensrate cube
+
+
+13/3/25
+-find out prime Number between 1 to 20.
+-print the sum of values between 1 to 50. 1+2+...+50=?
+-to find out the given three digit number is armstrong number or not. 153 = (1^3)+(5^3)+(3^3)
+-the given numbers is palindrome or not. example- 121, 2442,
+-find out factors of given number

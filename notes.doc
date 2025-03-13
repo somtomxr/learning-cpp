@@ -30,4 +30,11 @@ program
 
 "break" can be used with - case
        - cant be used with single if
-       - can be used with if onl 
+       - can be used with if only
+
+
+
+       LOOP(Iteration)--Types--do-while --its an exit control loop executed till condition is matched/true. It will "do" execute the statement at least one time weather the condition is true or false
+                              -while
+                              -for
+
