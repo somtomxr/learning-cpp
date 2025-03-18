@@ -7,17 +7,24 @@ int main(){
     b=1;
     do
     {
-        
-     if (a%b==0)
+     b++;   
+     if (a%b==0 && b<a)
     {
         cout<<"its not a  prime number";
     }
+
+     else if(a==b)
+     {
+        cout<<" its a prime number";
+     }
+    
+     
     
 
     
 
 
-    } while (a%b!=0 ||b==a-1 && b<a );
+    } while (a%b!=0 && b<a );
 
     
    
