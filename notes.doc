@@ -1,4 +1,72 @@
-Transfer Statement
+C++
+
+BLOCK STRUCTURE OF C++ PROGRAMMING:
+1.Documentation
+2. Header/Linker
+3. Macro
+4. Definiton
+5. Global 
+6. Main (body) Section
+7. Sub program
+
+Macro: one line program
+
+Variable refers memory address of datatype
+
+TOKEN: smallest unit of a program.  Types: datatype n operator
+
+Datatye: defines nature of variable
+ 1. Primitive- built in (pre define)
+ 2. Non- primitive-   user define
+
+HW Types of datatype n Operator
+
+\n n \t 
+
+
+Q. Write a program to print sum of 3 digits number?
+
+== comparison operator
+= Asignment operator
+>  ,  >=  , < , <= , ! Relational operator
+
+OPERATORS:
+   Binary
+   Unary :-Pre increment / decrement ++a/—a
+                -Post increment / decrement a++/—a
+           Increment operator variation:-   1. a++   ;      //where a=1 then a=2
+                                                                 2.a=a+1 ;    // where a=1 then a=2
+                                                                 3. a+=1:  // it is an compound operator,  where a=1 then a=2
+   Ternary/Tertiary:-  var=(condition)?ontrue:onfalse;
+                                    (a==b)?cout<<"password valid":cout<<"password invalid";
+        
+   Bitwise operators: AND &, OR |, NOT !, XOR ^, LEFT SHIFT<<, RIGHT SHIFT>>
+
+
+
+CONTROL FLOW STATEMENT
+   Conditional statement
+      Single
+      Bi
+      Ladder condition
+  
+
+   
+
+
+
+Control Flow Statement:-Condition Statement--Single Condition
+                                           --Bi Condition
+                                           --Lader Condition
+                                           --Nested Condition---use when multiple if{if{if}} conditions are there.
+                       -Transfer Statement--break
+                                          --switch
+                                          --continue
+                       -Loops Statement--do while
+                                       --while
+                                       --for
+
+Transfer Statement (initialize > condition > updation > processing)
 use on menu / MCQ based problems and programming
 
 program
@@ -35,6 +103,6 @@ program
 
 
        LOOP(Iteration)--Types--do-while --its an exit control loop executed till condition is matched/true. It will "do" execute the statement at least one time weather the condition is true or false
-                              -while
-                              -for
-
+                              -while--its an entry loop, execute only if statement is true, otherwise terminated
+                              -for--
+ 
