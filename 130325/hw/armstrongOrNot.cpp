@@ -3,23 +3,27 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a,b,c,d,e;
-    cout<<"Enter a 3 Digit Number = ";
-    cin>>a;
+    int a,b,c,d;
+    cout << "Enter a 3 Digit Number = ";
+    cin >> a;
 
     b=a/100;
     c=a%100/10;
     d=a%100%10;
 
 
-    if (a==(b*b*b)+(c*c*c)+(d*d*d))
+    if (a==(b*b*b)+(c*c*c)+(d*d*d) && a<1000 && a>99)
     {
-       cout<<"This number is Armstrong Number\n";
+       cout << "This number is Armstrong Number\n";
 
     }
-    else
+    else if (a<1000 && a>99)
     {
-        cout<<"Not an Armstrong Number\n";
+        cout << "Not an Armstrong Number\n";
+    }
+    else  
+    {
+        cout << "Invalid number"<<endl;
     }
     
 }
