@@ -1,3 +1,4 @@
+//Still wrong
 #include<iostream>
 using namespace std;
 int main(){
@@ -9,7 +10,7 @@ int main(){
     while (tmpRange<=range)
     {  
         divVar=2;
-        while (divVar<=tmpRange)
+        while (divVar<=tmpRange || tmpRange%divVar!=0 )
         {
             if (tmpRange%divVar==0)
             {

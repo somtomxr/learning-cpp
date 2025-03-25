@@ -104,5 +104,7 @@ program
 
        LOOP(Iteration)--Types--do-while --its an exit control loop executed till condition is matched/true. It will "do" execute the statement at least one time weather the condition is true or false
                               -while--its an entry loop, execute only if statement is true, otherwise terminated
-                              -for--
+                              -for--(variable initialize; condition; increment/decrement)
  
+While loop used for uncertain and certain both cases
+For loop used for certain cases
