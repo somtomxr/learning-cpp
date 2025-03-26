@@ -11,12 +11,12 @@ int main(){
     tempNum = orgNum;  //save original number
 
 //reverse the number
-    do
+while (tempNum>0)
     {
         lastDigit=tempNum%10; 
         tempNum=tempNum/10;
         rvrNum=rvrNum*10+lastDigit; 
-    } while (tempNum>0);
+    } 
 
 
 //checking palindrome

@@ -12,7 +12,7 @@ int main (){
                 f=1 ;
                 break;
             }
-            k--:
+            k--;
         }
         if(f==0)
         {
