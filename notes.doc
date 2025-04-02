@@ -108,3 +108,12 @@ program
  
 While loop used for uncertain and certain both cases
 For loop used for certain cases
+
+
+Array: collection Of similar kinds of data is called an array. types:--1.Numeric array-- a numeric array having integer indexing that always start from 0.  Drwaback:-Easily hackable
+                                                                         Tyoes:   -1 dimension array-have only one subscript
+      datatype arrayname[size];                                                   -2 dimension array-
+                                                                                  -3 dimension array
+data stored in Linear way                                               2.Associative array-- having key n value pair where key belongs indexing that should be unique.
+
+Different ways of initialization of array:

@@ -13,7 +13,7 @@ int main(){
             {
                 break;    
             }
-            else if (num == div)
+            else if (div == num)
             {
                 cout << num << "\t";   
             }

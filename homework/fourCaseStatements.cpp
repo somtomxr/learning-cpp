@@ -11,7 +11,7 @@ int main(){
     switch(b)
     {
         case 1:
-        {
+        { 
             if(a%2==0)
             {
                 cout<<"even";

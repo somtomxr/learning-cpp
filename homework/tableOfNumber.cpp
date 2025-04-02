@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int a,b,c;
+    int a,b;
     cout<<"Table of ";
     cin>>a;
     b=1;

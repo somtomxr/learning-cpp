@@ -3,18 +3,18 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a,b,endn;
+    int a,b,endN;
     b=0;
     a=1;
     cout<<"Enter a Number ";
-    cin>>endn;
+    cin>>endN;
     do
     {
         b=b+a;
 
         a++;
         
-    } while (a<=endn);
+    } while (a<=endN);
     cout<<b<<endl;
     // l
 }
